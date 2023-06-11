@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appPrimaryColor"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context=".presentation.fragments.episode.EpisodeDetailsFragment">
+
+    <ImageView
+        android:id="@+id/episode_details_avatar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/episode_details_name"
+        style="@style/DefaultDetailsTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/episode_details_avatar"
+        tools:text="Name: Some episode name" />
+
+    <TextView
+        android:id="@+id/episode_details_air_date"
+        style="@style/DefaultDetailsTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/episode_details_name"
+        tools:text="Air Date: 12 october 2019" />
+
+
+    <TextView
+        android:id="@+id/episode_details_episode"
+        style="@style/DefaultDetailsTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/episode_details_air_date"
+        tools:text="Episode: S1EP2" />
+
+    <TextView
+        android:id="@+id/episode_details_characters_list_title"
+        style="@style/DefaultDetailsTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/episode_details_episode"
+        android:text="@string/characters" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/episode_details_characters1_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/default_vertical_margin"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/episode_details_characters_list_title"
+        tools:listitem="@layout/card_character" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

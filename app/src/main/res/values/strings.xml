@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AstonFinalProject</string>
+
+    <!--Card character strings-->
+    <string name="character_name">Name: %1$s</string>
+    <string name="character_species">Species: %1$s</string>
+    <string name="character_status">Status: %1$s</string>
+    <string name="character_gender">Gender: %1$s</string>
+    <string name="character_origin">Origin: %1$s</string>
+    <string name="character_location">Location: %1$s</string>
+
+    <!--Card episode strings-->
+    <string name="episode_name">Episode name: %1$s</string>
+    <string name="episode">Episode: %1$s</string>
+    <string name="episode_air_date_txt">Air date: %1$s</string>
+
+    <!--Card location strings-->
+    <string name="location_name">Location name: %1$s</string>
+    <string name="location_type">Location type: %1$s</string>
+    <string name="location_dimension">Location dimension: %1$s</string>
+
+    <!--Card load state-->
+    <string name="can_t_load_data">can\'t load data</string>
+    <string name="try_again">Try Again</string>
+
+    <!--Bottom nav menu-->
+    <string name="characters">Characters</string>
+    <string name="locations">Locations</string>
+    <string name="episodes">Episodes</string>
+    <string name="search_by_name">search by name...</string>
+
+</resources>

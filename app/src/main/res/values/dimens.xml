@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main activity -->
+    <dimen name="default_horizontal_margin">8dp</dimen>
+    <dimen name="default_vertical_margin">8dp</dimen>
+    <dimen name="layout_padding">8dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="bottom_nav_icon_size">50dp</dimen>
+
+    <!--Card dimens -->
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_text_size">16sp</dimen>
+    <dimen name="card_image_size">200dp</dimen>
+    <dimen name="vertical_margin">8dp</dimen>
+    <dimen name="horizontal_margin">8dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_height">300dp</dimen>
+
+    <!--Card load state -->
+    <dimen name="load_state_height">80dp</dimen>
+
+    <!--Details fragments -->
+    <dimen name="ripple_effect_radius">4dp</dimen>
+    <dimen name="details_default_text_size">22sp</dimen>
+</resources>

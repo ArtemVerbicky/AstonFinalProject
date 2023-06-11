@@ -1,0 +1,3 @@
+package ru.verb.astonfinalproject.presentation.fragments
+
+interface HasBackArrow

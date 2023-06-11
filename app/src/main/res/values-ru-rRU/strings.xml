@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Финальный проект Aston</string>
+    <string name="character_name">Имя: %1$s</string>
+    <string name="character_species">Вид: %1$s</string>
+    <string name="character_status">Статус: %1$s</string>
+    <string name="character_gender">Пол: %1$s</string>
+    <string name="episode_name">Название эпизода: %1$s</string>
+    <string name="episode">Эпизод: %1$s</string>
+    <string name="episode_air_date_txt">Дата выпуска: %1$s</string>
+    <string name="location_name">Название локации: %1$s</string>
+    <string name="location_type">Тип локации: %1$s</string>
+    <string name="location_dimension">Измерение: %1$s</string>
+    <string name="can_t_load_data">Невозможно загрузить данные</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="characters">Персонажи</string>
+    <string name="locations">Локации</string>
+    <string name="episodes">Эпизоды</string>
+    <string name="character_origin">Происхождение: %1$s</string>
+    <string name="character_location">Локация: %1$s</string>
+</resources>
