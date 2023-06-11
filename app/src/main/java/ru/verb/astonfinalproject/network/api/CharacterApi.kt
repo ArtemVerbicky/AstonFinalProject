@@ -7,10 +7,10 @@ import retrofit2.http.Query
 import ru.verb.astonfinalproject.domain.models.Character
 import ru.verb.astonfinalproject.core.BaseApi
 
-interface CharacterApi {
+interface CharacterApi: BaseApi<Character> {
     @GET("character")
-    fun getPagedItems(@Query("page") page: Int): Response<List<Character>>
+    override fun getPagedItems(@Query("page") page: Int): Response<List<Character>>
 
     @GET("character/{id}")
-    fun getItemById(@Path("id")id: Int): Response<Character>
+    override fun getItemById(@Path("id")id: Int): Response<Character>
 }
